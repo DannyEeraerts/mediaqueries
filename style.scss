@@ -48,6 +48,10 @@ body{
     color: $text;
     margin: 2rem;
     main{
+        display: flex;
+        flex-direction: row;
+        gap: 2%;
+
         /* div{
             &:nth-of-type(1){
                 display:none;
@@ -71,6 +75,11 @@ body{
             }
         }
         main{
+            display: flex;
+            flex-direction: column;
+            row-gap: 1em;
+            flex: wrap;
+            
             /* div{
                 &:nth-of-type(1){
                     display:block;
@@ -87,6 +96,7 @@ body{
             .footer-wrapper{
                 flex-direction: column;
                 flex-wrap: nowrap;
+                gap: 1em;
             }
         }
         
@@ -97,6 +107,16 @@ body{
     body{
         background-color: $green;
         main{
+            flex-wrap: wrap;
+            div{
+                &:nth-of-type(1){
+                    flex-basis: 66%;
+                }
+                &:nth-of-type(2){
+                    flex-basis: 32%;
+                }
+            }
+
             /* div{
                 &:nth-of-type(1){
                     display:none;
