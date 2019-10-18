@@ -48,7 +48,7 @@ body{
     color: $text;
     margin: 2rem;
     main{
-        div{
+        /* div{
             &:nth-of-type(1){
                 display:none;
             }
@@ -58,7 +58,7 @@ body{
             &:nth-of-type(3){
                 display:block;
             }
-        }
+        } */
     }
 }
 
@@ -71,7 +71,7 @@ body{
             }
         }
         main{
-            div{
+            /* div{
                 &:nth-of-type(1){
                     display:block;
                 }
@@ -81,7 +81,7 @@ body{
                 &:nth-of-type(3){
                     display:none;
                 }
-            }
+            } */
         }
         footer{
             .footer-wrapper{
@@ -97,7 +97,7 @@ body{
     body{
         background-color: $green;
         main{
-            div{
+            /* div{
                 &:nth-of-type(1){
                     display:none;
                 }
@@ -107,7 +107,7 @@ body{
                 &:nth-of-type(3){
                     display:none;
                 }
-            }
+            } */
         }
     }
 }
